@@ -55,7 +55,7 @@ function App() {
           Choose any image file and convert it to text. (en/rus/jpn/cn/kor)
         </p>
         <div className="flex justify-between py-4 mx-8 items-center">
-          <div>
+          <div className="block">
             <label
               className="bg-sky-200 rounded-md cursor-pointer py-2 px-4"
               htmlFor="imxt"
