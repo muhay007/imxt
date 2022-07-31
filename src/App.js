@@ -47,9 +47,10 @@ function App() {
 
   return (
     <>
+    <div className="bg-amber-50">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-6xl font-sans font-bold text-indigo-500 p-8 ">
-          imxt__
+          imxt_
         </h1>
         <p className="text-md text-sky-600 mx-8">
           Choose any image file and convert it to text. (en/rus/jpn/cn/kor)
@@ -57,10 +58,10 @@ function App() {
         <div className="flex justify-between py-4 mx-8 items-center">
           <div className="block">
             <label
-              className="bg-sky-200 rounded-md cursor-pointer py-2 px-4"
+              className="bg-sky-200 rounded-md cursor-pointer py-2 px-4 text-sm"
               htmlFor="imxt"
             >
-              Upload File
+              UploadFile
             </label>
             <input
               type="file"
@@ -72,7 +73,7 @@ function App() {
             />
           </div>
 
-          <div className="flex">
+          <div className="flex text-sm">
             <p className="text-green-600 rounded-md cursor-pointer py-2 px-4 text-center font-bold">
               {copySuccess}
             </p>
@@ -80,7 +81,7 @@ function App() {
               onClick={() => copyToClipBoard(textResult)}
               className="bg-sky-200 rounded-md cursor-pointer py-2 px-4"
             >
-              Click here to copy
+              CopyMe
             </button>
           </div>
         </div>
@@ -114,6 +115,7 @@ function App() {
           </div>
         </div>
       </div>
+</div>
     </>
   );
 }
