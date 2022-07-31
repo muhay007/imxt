@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-amber-50">
+
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-6xl font-sans font-bold text-indigo-500 p-8 ">
           imxt_
@@ -115,7 +115,7 @@ function App() {
           </div>
         </div>
       </div>
-</div>
+
     </>
   );
 }
